@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+        img {
+            margin: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+        .ssim {
+            font-size: 1.2rem;
+            color: #007BFF;
+            margin-top: 10px;
+        }
+        a {
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Generated Image Result</h1>
+    <div>
+        <h2>Satellite Image</h2>
+        <img src="data:image/png;base64,{{ real_image }}" alt="Real Image">
+    </div>
+    <div>
+        <h2>Generated Image</h2>
+        <img src="data:image/png;base64,{{ generated_image }}" alt="Generated Image">
+        <p class="ssim">SSIM: {{ ssim_value }}</p>
+    </div>
+    <a href="/">Upload another image</a>
+</body>
+</html>
