@@ -105,7 +105,7 @@ The web application developed allows users to upload satellite images and receiv
    ```
 2. **Download the Trained Models From Google Drive**:
    [Download Trained Models](https://drive.google.com/drive/folders/1r2WtumEbUOjT1ZPZeKeUt9vSNsHYAw67?usp=sharing)
-   
+
 3. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
@@ -121,9 +121,9 @@ The web application developed allows users to upload satellite images and receiv
 
 ## Acknowledgments
 This project was completed by:
-- **Hasnain Jafri**
-- **Shafqat Mehmood**
-- **Waiz**
+- **Hasnain Jafri(Report and App)**
+- **Shafqat Mehmood(Model Training and Testing)**
+- **Waiz(Dataset Preprocessing)**
 
 We thank the creators of the Pix2Pix framework and the contributors of the DeepGlobe and SpaceNet datasets for enabling this work.
 
