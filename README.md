@@ -103,15 +103,18 @@ The web application developed allows users to upload satellite images and receiv
    git clone <repository-link>
    cd <repository-folder>
    ```
-2. **Install Dependencies**:
+2. **Download the Trained Models From Google Drive**:
+   [Download Trained Models](https://drive.google.com/drive/folders/1r2WtumEbUOjT1ZPZeKeUt9vSNsHYAw67?usp=sharing)
+   
+3. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the Flask App**:
+4. **Run the Flask App**:
    ```bash
    python app.py
    ```
-4. **Access the Application**:
+5. **Access the Application**:
    Open a browser and go to `http://127.0.0.1:5000/`.
 
 ---
